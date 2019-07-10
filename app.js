@@ -3,7 +3,6 @@ const authRoutes = require("./routes/auth-routes.js");
 const profileRoutes = require("./routes/profile-routes.js");
 const passportSetup = require("./config/passport-setup");
 const mongoose = require("mongoose");
-const keys = require("./config/keys");
 require("env2")("./config.env");
 const cookieSession = require("cookie-session");
 const passport = require("passport");
